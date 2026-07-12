@@ -229,6 +229,7 @@ function App() {
           <div className="thesis-media-grid">
             <figure className="thesis-media thesis-video">
               <video
+                autoPlay
                 controls
                 muted
                 loop
@@ -237,7 +238,7 @@ function App() {
                 poster="images/dumbbell_3dbbox_censored.png"
               >
                 <source
-                  src="videos/anim1_raw.mp4"
+                  src="/videos/anim1_h264.mp4"
                   type="video/mp4"
                 />
                 Your browser does not support embedded video.
