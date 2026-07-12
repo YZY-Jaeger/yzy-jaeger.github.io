@@ -85,7 +85,14 @@ function App() {
           </div>
 
           <aside className="hero-panel" aria-label="Profile overview">
-            <div className="availability">
+          <div className="profile-photo">
+            <img
+              src="images/zeyuan_photo_cv.jpg"
+              alt="Portrait of Zeyuan Yu"
+            />
+          </div>
+
+          <div className="availability">
               <span className="status-dot" />
               Open to junior developer opportunities
             </div>
@@ -186,6 +193,75 @@ function App() {
                 </article>
               ))}
             </div>
+            <div className="thesis-spotlight">
+          <div className="thesis-spotlight-copy">
+            <p className="project-area">Master’s thesis spotlight</p>
+
+            <h3>
+              RGB-only 6D pose tracking for exercise equipment
+            </h3>
+
+            <p>
+              This project investigated whether the three-dimensional position and
+              orientation of a dumbbell could be tracked from ordinary monocular RGB
+              video without using a depth sensor.
+            </p>
+
+            <p>
+              I adapted and compared a model-free GS-Pose pipeline and a model-based
+              RGBTrack pipeline for real 4K exercise footage involving small-object
+              detection, hand occlusion and object symmetry.
+            </p>
+
+            <ul>
+              <li>SAM 2 segmentation and crop-aware camera calibration</li>
+              <li>Temporal smoothing and history-aware tracking recovery</li>
+              <li>Evaluation against Qualisys motion-capture ground truth</li>
+              <li>Approximately 2.7× lower position error with the model-based method</li>
+            </ul>
+
+            <p className="thesis-availability">
+              The complete thesis is not distributed publicly. This page presents a
+              selected project summary and approved visual results.
+            </p>
+          </div>
+
+          <div className="thesis-media-grid">
+            <figure className="thesis-media thesis-video">
+              <video
+                controls
+                muted
+                loop
+                playsInline
+                preload="metadata"
+                poster="images/thesis-tracking.png"
+              >
+                <source
+                  src="videos/thesis-tracking.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support embedded video.
+              </video>
+
+              <figcaption>
+                Example output showing frame-level dumbbell pose tracking in the
+                exercise recording.
+              </figcaption>
+            </figure>
+
+            <figure className="thesis-media">
+              <img
+                src="images/thesis-roi.png"
+                alt="Full exercise frame and cropped dumbbell region used by GS-Pose"
+              />
+
+              <figcaption>
+                Small-object localisation: the target dumbbell is isolated from the
+                full 4K frame and resized as input to GS-Pose.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
           </div>
         </section>
 
