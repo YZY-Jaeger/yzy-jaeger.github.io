@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">3D pose tracking illustration</title>
+  <desc id="desc">A dumbbell-like object with three-dimensional axes and motion trajectories.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f2836"/>
+      <stop offset="1" stop-color="#1d617a"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <rect width="900" height="560" fill="url(#bg)"/>
+  <g opacity=".15" stroke="#d9edf4">
+    <path d="M0 110H900M0 220H900M0 330H900M0 440H900"/>
+    <path d="M150 0V560M300 0V560M450 0V560M600 0V560M750 0V560"/>
+  </g>
+  <path d="M115 405C245 390 310 335 394 292S585 225 788 141" fill="none" stroke="#8ed2e7" stroke-width="8" stroke-linecap="round" stroke-dasharray="3 20"/>
+  <path d="M128 436C270 451 357 405 448 348S655 274 780 264" fill="none" stroke="#fff" stroke-opacity=".38" stroke-width="3"/>
+  <g transform="translate(440 290) rotate(-18)" filter="url(#shadow)">
+    <rect x="-122" y="-28" width="244" height="56" rx="28" fill="#d9e4e9"/>
+    <g fill="#f8fbfc" stroke="#bed0d9" stroke-width="7">
+      <rect x="-190" y="-83" width="83" height="166" rx="24"/>
+      <rect x="107" y="-83" width="83" height="166" rx="24"/>
+    </g>
+    <rect x="-75" y="-19" width="150" height="38" rx="19" fill="#7895a2"/>
+  </g>
+  <g transform="translate(444 291)" stroke-width="8" stroke-linecap="round">
+    <path d="M0 0L138 -38" stroke="#f36f5f"/>
+    <path d="M0 0L-20 -124" stroke="#55c58a"/>
+    <path d="M0 0L64 90" stroke="#64a9ef"/>
+  </g>
+  <g fill="#fff" font-family="Arial, sans-serif">
+    <text x="50" y="70" font-size="24" font-weight="700" opacity=".95">RGB video → 6D pose trajectory</text>
+    <text x="50" y="104" font-size="16" opacity=".65">Segmentation · calibration · temporal tracking · evaluation</text>
+  </g>
+</svg>

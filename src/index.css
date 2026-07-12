@@ -1,0 +1,13 @@
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  color: white;
+  background: #1b5d77;
+}
+
+:focus-visible {
+  outline: 3px solid rgba(27, 93, 119, 0.45);
+  outline-offset: 3px;
+}

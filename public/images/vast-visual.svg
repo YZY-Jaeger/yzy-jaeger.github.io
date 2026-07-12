@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Knowledge graph visual analytics illustration</title>
+  <desc id="desc">A network of connected nodes with a timeline underneath.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#132031"/>
+      <stop offset="1" stop-color="#3b355d"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" fill="url(#bg)"/>
+  <g stroke="#b9c7e9" stroke-opacity=".32" stroke-width="2">
+    <path d="M175 174L303 99L409 201L534 117L680 180L753 91"/>
+    <path d="M175 174L269 285L409 201L454 330L601 288L680 180"/>
+    <path d="M303 99L269 285M534 117L601 288M409 201L680 180"/>
+    <path d="M269 285L160 344M454 330L354 405M601 288L735 350"/>
+  </g>
+  <g fill="#8ed2e7" stroke="#e8f5fa" stroke-width="4">
+    <circle cx="175" cy="174" r="17"/><circle cx="303" cy="99" r="12"/>
+    <circle cx="409" cy="201" r="25"/><circle cx="534" cy="117" r="14"/>
+    <circle cx="680" cy="180" r="21"/><circle cx="753" cy="91" r="10"/>
+    <circle cx="269" cy="285" r="18"/><circle cx="454" cy="330" r="14"/>
+    <circle cx="601" cy="288" r="22"/><circle cx="160" cy="344" r="9"/>
+    <circle cx="354" cy="405" r="11"/><circle cx="735" cy="350" r="12"/>
+  </g>
+  <g transform="translate(90 470)">
+    <path d="M0 0H720" stroke="#dbe3f4" stroke-opacity=".4" stroke-width="2"/>
+    <g stroke="#dbe3f4" stroke-opacity=".35"><path d="M40 -10V10M180 -10V10M320 -10V10M460 -10V10M600 -10V10M720 -10V10"/></g>
+    <path d="M35 -22C120 -68 181 -5 254 -42S412 -76 492 -32S622 -7 716 -61" fill="none" stroke="#f3a6cc" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g fill="#fff" font-family="Arial, sans-serif">
+    <text x="50" y="70" font-size="24" font-weight="700" opacity=".95">Knowledge graph exploration</text>
+    <text x="50" y="104" font-size="16" opacity=".65">Network relationships · influence · temporal patterns</text>
+  </g>
+</svg>
