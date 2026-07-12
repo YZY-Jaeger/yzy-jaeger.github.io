@@ -234,10 +234,10 @@ function App() {
                 loop
                 playsInline
                 preload="metadata"
-                poster="images/thesis-tracking.png"
+                poster="images/dumbbell_3dbbox_censored.png"
               >
                 <source
-                  src="videos/thesis-tracking.mp4"
+                  src="videos/anim1_raw.mp4"
                   type="video/mp4"
                 />
                 Your browser does not support embedded video.
@@ -251,7 +251,7 @@ function App() {
 
             <figure className="thesis-media">
               <img
-                src="images/thesis-roi.png"
+                src="images/yolo+roi.png"
                 alt="Full exercise frame and cropped dumbbell region used by GS-Pose"
               />
 
