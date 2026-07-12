@@ -70,7 +70,7 @@ function App() {
               </a>
               <a
                 className="button secondary"
-                href="https://github.com/YZY-Jaegeri"
+                href="https://github.com/YZY-Jaeger"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -273,7 +273,7 @@ function App() {
                 jaeger741118@gmail.com <ArrowIcon />
               </a>
               <div className="contact-links">
-                <a href="https://github.com/YZY-Jaegeri" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://github.com/YZY-Jaeger" target="_blank" rel="noreferrer">GitHub</a>
                 <a href="https://www.linkedin.com/in/zeyuan-yu-566733285/" target="_blank" rel="noreferrer">LinkedIn</a>
               </div>
             </div>

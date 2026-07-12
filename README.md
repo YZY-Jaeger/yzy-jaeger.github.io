@@ -26,23 +26,23 @@ npm run preview
 
 ## GitHub Pages deployment
 
-Your GitHub username is currently `YZY-Jaegeri`, so a personal GitHub Pages repository should be named:
+Your GitHub username is currently `YZY-Jaeger`, so a personal GitHub Pages repository should be named:
 
 ```text
-YZY-Jaegeri.github.io
+YZY-Jaeger.github.io
 ```
 
 The resulting address will be:
 
 ```text
-https://yzy-jaegeri.github.io/
+https://yzy-jaeger.github.io/
 ```
 
 To use `https://zeyuan.github.io/`, the GitHub account or organization that owns the repository must be named `zeyuan`.
 
 Deployment steps:
 
-1. Create the public repository `YZY-Jaegeri.github.io`.
+1. Create the public repository `YZY-Jaeger.github.io`.
 2. Push this project to its `main` branch.
 3. Open **Settings → Pages**.
 4. Set **Source** to **GitHub Actions**.
