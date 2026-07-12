@@ -20,11 +20,9 @@ export const projects: Project[] = [
     contribution:
       'Integrated SAM 2 segmentation, crop-aware camera calibration, temporal smoothing and tracking recovery, then evaluated the pipelines against Qualisys motion-capture data.',
     technologies: ['Python', 'PyTorch', 'OpenCV', 'SAM 2', '6D pose', 'Qualisys'],
-    image: 'images/thesis-visual.svg',
-    imageAlt: 'Abstract illustration of 3D object pose tracking and motion trajectories',
-    links: [
-      { label: 'Read thesis', href: 'files/Zeyuan_Yu_Master_Thesis.pdf' },
-    ],
+    image: 'images/dumbbell_3dbbox_censored.png',
+    imageAlt: 'Censored exercise-video frame showing tracked dumbbell pose',
+    links: [],
   },
   {
     title: 'Sailor Shift and the Spread of Oceanus Folk',
