@@ -57,6 +57,39 @@ export const projects: Project[] = [
     imageAlt: 'Abstract mixed-reality headset and hand interaction illustration',
     links: [],
   },
+  {
+  title: 'Semantic and Emotional Landscapes in Gaming Subreddits',
+  year: '2025–2026',
+  area: 'Document Analysis · NLP',
+  summary:
+    'A collaborative analysis of distinctive language and emotional patterns across gaming communities on Reddit.',
+  contribution:
+    'Applied NLP and visualization methods including TF-IDF bigrams, Word2Vec embeddings, dimensionality reduction and interactive plotting.',
+  technologies: [
+    'Python',
+    'TF-IDF',
+    'Word2Vec',
+    'PCA',
+    'k-means',
+    'Plotly',
+    'Sentiment Analysis',
+  ],
+  image: 'images/docana-project1_60_2.png',
+  imageAlt:
+    'Sentiment Analysis of gaming subreddits',
+  links: [
+    {
+      label: 'Interactive visualization',
+      href: 'interactive/reddit-bigram-clusters.html',
+      external: true,
+    },
+    {
+      label: 'Dataset',
+      href: 'https://huggingface.co/datasets/webis/tldr-17/viewer/default/train?row=4',
+      external: true,
+    },
+  ],
+},
 ]
 
 export const experience = [
