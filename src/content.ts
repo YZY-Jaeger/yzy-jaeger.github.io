@@ -53,7 +53,7 @@ export const projects: Project[] = [
     contribution:
       'Implemented and tested physics-based interactions, including pinch and grab techniques, with attention to immediate feedback and usability.',
     technologies: ['Unity', 'C#', 'Meta Quest', 'VR / MR', 'Physics'],
-    image: 'images/xr-visual.svg',
+    image: 'images/screenshot_vr.png',
     imageAlt: 'Abstract mixed-reality headset and hand interaction illustration',
     links: [],
   },
